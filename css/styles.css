@@ -1,0 +1,126 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3{
+  font-weight: bold;
+}
+
+p{
+  font-size: .9rem;
+  font-weight: 300;
+  color: #8f8f8f;
+  /* margin: auto 25px; */
+}
+/* Headings */
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.head-des{
+  font-size: 1.3rem;
+}
+
+/* Container section */
+.container-fluid{
+  padding: 7% 15%;
+}
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: white;
+}
+/* Title section */
+/* Heirarchial Selection */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* Navbar section */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+/* download-buttons */
+.download-button{
+  margin: 3% 2% 0 0;
+}
+/* Title Image */
+.iphone{
+  width: 180px;
+  height: 370px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+                                /* ---For Features Section--- */
+#features{
+  position: relative;
+    /* z-index: 1; */
+}
+.alignment{
+  padding: 5% 4%;
+}
+.icon{
+  color: #ef8172;
+  margin: 15px auto 10px auto;
+}
+/* fontawesome img */
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+}
+.carousel-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press section */
+#press{
+  background-color: #ef8172;
+}
+.media-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 50px 100px;
+}
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.card-alignment{
+  padding: 3% 2%;
+}
+/* ---Footer Section */
+.footer-icon{
+  padding: 2% 1%;
+}
+/* Media Query Section */
+@media (max-width:992px){
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    padding-top: 20px;
+  }
+  #title .container-fluid{
+    text-align: center;
+  }
+}
